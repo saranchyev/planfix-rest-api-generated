@@ -1,6 +1,8 @@
-# OpenAPIClient-php
+<img src="planfix-logo.svg" width="64" height="64">
 
-Documentation for Planfix REST API. <br> Generated <a href=\"https://root/restapidocs/swagger.json\">swagger.json</a>
+# Planfix REST API (generated)
+REST API клиент для сервиса https://planfix.ru/. Код клиента сгенерированн автоматически 
+при помощи [OpenAPI Generator](https://openapi-generator.tech/) по [swagger документации](https://help.planfix.com/restapidocs/).
 
 
 ## Installation & Usage
