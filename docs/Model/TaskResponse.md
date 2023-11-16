@@ -1,0 +1,48 @@
+# # TaskResponse
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **int** |  | [optional]
+**source_object_id** | **string** |  | [optional]
+**source_data_version** | **string** |  | [optional]
+**name** | **string** |  | [optional]
+**description** | **string** |  | [optional]
+**priority** | **string** |  | [optional]
+**status** | [**\OpenAPI\Client\Model\TaskStatus**](TaskStatus.md) |  | [optional]
+**process_id** | **int** |  | [optional]
+**result_checking** | **bool** |  | [optional]
+**type** | **string** |  | [optional]
+**assigner** | [**\OpenAPI\Client\Model\PersonResponse**](PersonResponse.md) |  | [optional]
+**parent** | [**\OpenAPI\Client\Model\BaseEntity**](BaseEntity.md) |  | [optional]
+**template** | [**\OpenAPI\Client\Model\BaseEntity**](BaseEntity.md) |  | [optional]
+**project** | [**\OpenAPI\Client\Model\BaseEntity**](BaseEntity.md) |  | [optional]
+**counterparty** | [**\OpenAPI\Client\Model\PersonResponse**](PersonResponse.md) |  | [optional]
+**date_time** | [**\OpenAPI\Client\Model\TimePoint**](TimePoint.md) |  | [optional]
+**start_date_time** | [**\OpenAPI\Client\Model\TimePoint**](TimePoint.md) |  | [optional]
+**end_date_time** | [**\OpenAPI\Client\Model\TimePoint**](TimePoint.md) |  | [optional]
+**has_start_date** | **bool** |  | [optional]
+**has_end_date** | **bool** |  | [optional]
+**has_start_time** | **bool** |  | [optional]
+**has_end_time** | **bool** |  | [optional]
+**delayed_till_date** | [**\OpenAPI\Client\Model\TimePoint**](TimePoint.md) |  | [optional]
+**date_of_last_update** | [**\OpenAPI\Client\Model\TimePoint**](TimePoint.md) |  | [optional]
+**duration** | **int** |  | [optional]
+**duration_unit** | **string** |  | [optional]
+**duration_type** | **string** |  | [optional]
+**overdue** | **bool** |  | [optional]
+**close_to_dead_line** | **bool** |  | [optional]
+**not_accepted_in_time** | **bool** |  | [optional]
+**in_favorites** | **bool** |  | [optional]
+**is_summary** | **bool** |  | [optional]
+**is_sequential** | **bool** |  | [optional]
+**assignees** | [**\OpenAPI\Client\Model\PeopleResponse**](PeopleResponse.md) |  | [optional]
+**participants** | [**\OpenAPI\Client\Model\PeopleResponse**](PeopleResponse.md) |  | [optional]
+**auditors** | [**\OpenAPI\Client\Model\PeopleResponse**](PeopleResponse.md) |  | [optional]
+**recurrence** | [**\OpenAPI\Client\Model\Recurrence**](Recurrence.md) |  | [optional]
+**is_deleted** | **bool** |  | [optional]
+**custom_field_data** | [**\OpenAPI\Client\Model\CustomFieldValueResponse[]**](CustomFieldValueResponse.md) |  | [optional]
+**files** | [**\OpenAPI\Client\Model\FileResponse[]**](FileResponse.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)
