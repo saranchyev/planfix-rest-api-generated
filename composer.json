@@ -1,20 +1,18 @@
 {
-    "description": "Documentation for Planfix REST API. <br> Generated <a href=\"https://root/restapidocs/swagger.json\">swagger.json</a>",
+    "name": "saranchyev/planfix-rest-api-generated",
+    "description": "automatically generated (Open API) REST API client for https://planfix.ru/",
     "keywords": [
-        "openapitools",
-        "openapi-generator",
-        "openapi",
-        "php",
-        "sdk",
+        "planfix",
         "rest",
-        "api"
+        "api",
+        "php"
     ],
-    "homepage": "https://openapi-generator.tech",
+    "homepage": "https://github.com/saranchyev/planfix-rest-api-generated",
     "license": "unlicense",
     "authors": [
         {
-            "name": "OpenAPI",
-            "homepage": "https://openapi-generator.tech"
+            "name": "Ilya Saranchyev",
+            "homepage": "https://github.com/saranchyev"
         }
     ],
     "require": {
